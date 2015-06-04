@@ -1,0 +1,628 @@
+Archive member included because of file (symbol)
+
+./libcsud.a(device.keyboard.c.o)
+                              build/keyboard.o (KeyboardGetAddress)
+./libcsud.a(platform.c.o)     ./libcsud.a(device.keyboard.c.o) (MemoryAllocate)
+./libcsud.a(usbd.c.o)         build/main.o (UsbInitialise)
+./libcsud.a(device.hid.c.o)   ./libcsud.a(device.keyboard.c.o) (HidReadDevice)
+./libcsud.a(device.hub.c.o)   ./libcsud.a(usbd.c.o) (HubPortReset)
+./libcsud.a(hcd.designware20.c.o)
+                              ./libcsud.a(usbd.c.o) (HcdSumbitControlMessage)
+./libcsud.a(hcd.designware20.roothub.c.o)
+                              ./libcsud.a(hcd.designware20.c.o) (HcdProcessRootHubMessage)
+./libcsud.a(platform.armv6.c.o)
+                              ./libcsud.a(hcd.designware20.c.o) (__aeabi_uidiv)
+./libcsud.a(platform.broadcom2835.c.o)
+                              ./libcsud.a(usbd.c.o) (MicroDelay)
+
+Allocating common symbols
+Common symbol       size              file
+
+CorePhysical        0x4               ./libcsud.a(hcd.designware20.c.o)
+DeviceNumbers       0x4               ./libcsud.a(usbd.c.o)
+HostPhysical        0x4               ./libcsud.a(hcd.designware20.c.o)
+keyboards           0x10              ./libcsud.a(device.keyboard.c.o)
+PowerPhysical       0x4               ./libcsud.a(hcd.designware20.c.o)
+Heap                0x4000            ./libcsud.a(platform.c.o)
+Allocations         0xc00             ./libcsud.a(platform.c.o)
+
+Discarded input sections
+
+ .bss           0x0000000000000000        0x0 build/borrarImagen.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/borrarImagen.o
+ .bss           0x0000000000000000        0x0 build/choque.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/choque.o
+ .bss           0x0000000000000000        0x0 build/creditos.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/creditos.o
+ .bss           0x0000000000000000        0x0 build/drawImage.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/drawImage.o
+ .bss           0x0000000000000000        0x0 build/drawing.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/drawing.o
+ .bss           0x0000000000000000        0x0 build/drawingImage.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/drawingImage.o
+ .bss           0x0000000000000000        0x0 build/escena.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/escena.o
+ .bss           0x0000000000000000        0x0 build/flechas.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/flechas.o
+ .bss           0x0000000000000000        0x0 build/fondo.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/fondo.o
+ .bss           0x0000000000000000        0x0 build/fondo2.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/fondo2.o
+ .bss           0x0000000000000000        0x0 build/fondo3.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/fondo3.o
+ .bss           0x0000000000000000        0x0 build/frameBuffer.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/frameBuffer.o
+ .bss           0x0000000000000000        0x0 build/gameOver.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/gameOver.o
+ .bss           0x0000000000000000        0x0 build/getgpio.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/getgpio.o
+ .bss           0x0000000000000000        0x0 build/gohan.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/gohan.o
+ .bss           0x0000000000000000        0x0 build/gpio.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/gpio.o
+ .bss           0x0000000000000000        0x0 build/imagenNombreJuego.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/imagenNombreJuego.o
+ .bss           0x0000000000000000        0x0 build/imagenSeleccion.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/imagenSeleccion.o
+ .bss           0x0000000000000000        0x0 build/imagenVida.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/imagenVida.o
+ .bss           0x0000000000000000        0x0 build/imagenVidaPerdida.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/imagenVidaPerdida.o
+ .bss           0x0000000000000000        0x0 build/imprimir.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/imprimir.o
+ .bss           0x0000000000000000        0x0 build/instrucciones.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/instrucciones.o
+ .bss           0x0000000000000000        0x0 build/instruccionesFondo.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/instruccionesFondo.o
+ .bss           0x0000000000000000        0x0 build/keyboard.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/keyboard.o
+ .bss           0x0000000000000000        0x0 build/mailbox.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/mailbox.o
+ .bss           0x0000000000000000        0x0 build/main.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/main.o
+ .bss           0x0000000000000000        0x0 build/maths.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/maths.o
+ .bss           0x0000000000000000        0x0 build/menu.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/menu.o
+ .bss           0x0000000000000000        0x0 build/modoJuegos.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/modoJuegos.o
+ .bss           0x0000000000000000        0x0 build/nave.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/nave.o
+ .bss           0x0000000000000000        0x0 build/random.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/random.o
+ .bss           0x0000000000000000        0x0 build/subrutinasProyecto.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/subrutinasProyecto.o
+ .bss           0x0000000000000000        0x0 build/systemTimer.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/systemTimer.o
+ .bss           0x0000000000000000        0x0 build/tags.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/tags.o
+ .bss           0x0000000000000000        0x0 build/terminal.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/terminal.o
+ .bss           0x0000000000000000        0x0 build/text.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/text.o
+ .bss           0x0000000000000000        0x0 build/world.o
+ .ARM.attributes
+                0x0000000000000000       0x14 build/world.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/borrarImagen.o
+LOAD build/choque.o
+LOAD build/creditos.o
+LOAD build/drawImage.o
+LOAD build/drawing.o
+LOAD build/drawingImage.o
+LOAD build/escena.o
+LOAD build/flechas.o
+LOAD build/fondo.o
+LOAD build/fondo2.o
+LOAD build/fondo3.o
+LOAD build/frameBuffer.o
+LOAD build/gameOver.o
+LOAD build/getgpio.o
+LOAD build/gohan.o
+LOAD build/gpio.o
+LOAD build/imagenNombreJuego.o
+LOAD build/imagenSeleccion.o
+LOAD build/imagenVida.o
+LOAD build/imagenVidaPerdida.o
+LOAD build/imprimir.o
+LOAD build/instrucciones.o
+LOAD build/instruccionesFondo.o
+LOAD build/keyboard.o
+LOAD build/mailbox.o
+LOAD build/main.o
+LOAD build/maths.o
+LOAD build/menu.o
+LOAD build/modoJuegos.o
+LOAD build/nave.o
+LOAD build/random.o
+LOAD build/subrutinasProyecto.o
+LOAD build/systemTimer.o
+LOAD build/tags.o
+LOAD build/terminal.o
+LOAD build/text.o
+LOAD build/world.o
+LOAD ./libcsud.a
+
+.init           0x0000000000008000        0x4
+ *(.init)
+ .init          0x0000000000008000        0x4 build/main.o
+                0x0000000000008000                _start
+
+.data           0x0000000000009000   0xad8b82
+ *(.data)
+ .data          0x0000000000009000        0x0 build/borrarImagen.o
+ .data          0x0000000000009000     0xafcc build/choque.o
+                0x0000000000009000                altoChoque
+                0x0000000000009002                anchoChoque
+                0x0000000000009004                imagenChoque
+ .data          0x0000000000013fcc    0x927c4 build/creditos.o
+                0x0000000000013fcc                altoCreditos
+                0x0000000000013fce                anchoCreditos
+                0x0000000000013fd0                imagenCreditos
+ .data          0x00000000000a6790      0x258 build/drawImage.o
+                0x00000000000a6790                dibujarFondo
+                0x00000000000a67ec                dibujarImagen
+                0x00000000000a6878                pintarFondo
+                0x00000000000a68fc                animarImagen
+                0x00000000000a6954                animarImagen$
+ *fill*         0x00000000000a69e8        0x8 
+ .data          0x00000000000a69f0      0x810 build/drawing.o
+ .data          0x00000000000a7200        0x0 build/drawingImage.o
+ .data          0x00000000000a7200       0x14 build/escena.o
+ .data          0x00000000000a7214     0x9c44 build/flechas.o
+                0x00000000000a7214                altoFlechas
+                0x00000000000a7216                anchoFlechas
+                0x00000000000a7218                imagenFlechas
+ .data          0x00000000000b0e58   0x180004 build/fondo.o
+                0x00000000000b0e58                altofondo
+                0x00000000000b0e5a                anchofondo
+                0x00000000000b0e5c                imagenfondo
+ .data          0x0000000000230e5c   0x180004 build/fondo2.o
+                0x0000000000230e5c                altofondo2
+                0x0000000000230e5e                anchofondo2
+                0x0000000000230e60                imagenfondo2
+ .data          0x00000000003b0e60   0x180004 build/fondo3.o
+                0x00000000003b0e60                altofondo3
+                0x00000000003b0e62                anchofondo3
+                0x00000000003b0e64                imagenfondo3
+ *fill*         0x0000000000530e64      0x19c 
+ .data          0x0000000000531000     0x1000 build/frameBuffer.o
+                0x0000000000531000                FrameBufferInfo
+ .data          0x0000000000532000    0x6eb66 build/gameOver.o
+                0x0000000000532000                altoGameOver
+                0x0000000000532002                anchoGameOver
+                0x0000000000532004                imagenGameOver
+ .data          0x00000000005a0b66        0x0 build/getgpio.o
+ .data          0x00000000005a0b66     0x494e build/gohan.o
+                0x00000000005a0b66                GohanHeight
+                0x00000000005a0b68                GohanWidth
+                0x00000000005a0b6a                Gohan
+ .data          0x00000000005a54b4        0x0 build/gpio.o
+ .data          0x00000000005a54b4    0x57e44 build/imagenNombreJuego.o
+                0x00000000005a54b4                altoNombreJuego
+                0x00000000005a54b6                anchoNombreJuego
+                0x00000000005a54b8                imagenDestroying
+                0x00000000005d13d8                imagenBlocks
+ .data          0x00000000005fd2f8    0x2bf24 build/imagenSeleccion.o
+                0x00000000005fd2f8                altoSeleccion
+                0x00000000005fd2fa                anchoSeleccion
+                0x00000000005fd2fc                imagenSeleccion
+ .data          0x000000000062921c     0x4e24 build/imagenVida.o
+                0x000000000062921c                altoVida
+                0x000000000062921e                anchoVida
+                0x0000000000629220                imagenVida
+ .data          0x000000000062e040     0x4e24 build/imagenVidaPerdida.o
+                0x000000000062e040                altoVida2
+                0x000000000062e042                anchoVida2
+                0x000000000062e044                imagenVida2
+ .data          0x0000000000632e64        0x0 build/imprimir.o
+ .data          0x0000000000632e64    0x7d004 build/instrucciones.o
+                0x0000000000632e64                altoInstrucciones
+                0x0000000000632e66                anchoInstrucciones
+                0x0000000000632e68                imagenInstrucciones
+ .data          0x00000000006afe68   0x180004 build/instruccionesFondo.o
+                0x00000000006afe68                altoinstruccionesFondo
+                0x00000000006afe6a                anchoinstruccionesFondo
+                0x00000000006afe6c                imageninstruccionesFondo
+ *fill*         0x000000000082fe6c        0x4 
+ .data          0x000000000082fe70       0xe0 build/keyboard.o
+ .data          0x000000000082ff50        0x0 build/mailbox.o
+ .data          0x000000000082ff50      0x258 build/main.o
+                0x0000000000830150                randomCantidad
+                0x0000000000830154                randomPosicion
+                0x0000000000830164                XCuadros
+                0x0000000000830174                jugadorSeleccionado
+                0x0000000000830178                balaDisparada
+                0x000000000083017c                posxBala
+                0x0000000000830180                posyBala
+                0x0000000000830184                booleanBala
+                0x0000000000830188                validacionBloques
+                0x0000000000830198                vidas
+                0x000000000083019c                score
+                0x00000000008301a0                record
+                0x00000000008301a4                dificultad
+ .data          0x00000000008301a8        0x0 build/maths.o
+ .data          0x00000000008301a8    0x54c8c build/menu.o
+                0x00000000008301a8                altomenu
+                0x00000000008301aa                anchomenu
+                0x00000000008301ac                imagenmenu
+                0x00000000008454ce                imagenjugar
+                0x000000000085a7f0                imageninstrucciones
+                0x000000000086fb12                imagencreditos
+ .data          0x0000000000884e34    0x57e44 build/modoJuegos.o
+                0x0000000000884e34                altoModoJuego
+                0x0000000000884e36                anchoModoJuego
+                0x0000000000884e38                imagenModoFacil
+                0x00000000008b0d58                imagenModoDificil
+ .data          0x00000000008dcc78    0x6ddd4 build/nave.o
+                0x00000000008dcc78                altoNave
+                0x00000000008dcc7a                anchoNave
+                0x00000000008dcc7c                imagenNave1
+                0x00000000008e7c44                imagenNave2
+                0x00000000008f2c0c                imagenNave3
+                0x00000000008fdbd4                imagenNave4
+                0x0000000000908b9c                imagenNave5
+                0x0000000000913b64                imagenNave5Derecha
+                0x000000000091eb2c                imagenNave5Izquierda
+                0x0000000000929af4                imagenNave6
+                0x0000000000934abc                imagenNave6Derecha
+                0x000000000093fa84                imagenNave6Izquierda
+ .data          0x000000000094aa4c        0x0 build/random.o
+ .data          0x000000000094aa4c       0x28 build/subrutinasProyecto.o
+ .data          0x000000000094aa74        0x0 build/systemTimer.o
+ .data          0x000000000094aa74       0x24 build/tags.o
+ *fill*         0x000000000094aa98       0x68 
+ .data          0x000000000094ab00     0xb100 build/terminal.o
+ .data          0x0000000000955c00        0x0 build/text.o
+ .data          0x0000000000955c00   0x180004 build/world.o
+                0x0000000000955c00                altoworld
+                0x0000000000955c02                anchoworld
+                0x0000000000955c04                imagenworld
+ .data          0x0000000000ad5c04        0x0 ./libcsud.a(device.keyboard.c.o)
+ .data          0x0000000000ad5c04        0x4 ./libcsud.a(platform.c.o)
+                0x0000000000ad5c04                FirstAllocation
+ .data          0x0000000000ad5c08        0x0 ./libcsud.a(usbd.c.o)
+ .data          0x0000000000ad5c08        0x0 ./libcsud.a(device.hid.c.o)
+ .data          0x0000000000ad5c08        0x0 ./libcsud.a(device.hub.c.o)
+ .data          0x0000000000ad5c08        0x0 ./libcsud.a(hcd.designware20.c.o)
+ .data          0x0000000000ad5c08       0x64 ./libcsud.a(hcd.designware20.roothub.c.o)
+                0x0000000000ad5c08                DeviceDescriptor
+                0x0000000000ad5c1c                ConfigurationDescriptor
+                0x0000000000ad5c38                String0
+                0x0000000000ad5c3c                String1
+                0x0000000000ad5c60                HubDescriptor
+ .data          0x0000000000ad5c6c        0x0 ./libcsud.a(platform.armv6.c.o)
+ .data          0x0000000000ad5c6c        0x0 ./libcsud.a(platform.broadcom2835.c.o)
+ *.c.o(*)
+ .text          0x0000000000ad5c6c     0x1000 ./libcsud.a(device.keyboard.c.o)
+                0x0000000000ad5c6c                KeyboardDetached
+                0x0000000000ad5ce8                KeyboardDeallocate
+                0x0000000000ad5d60                KeyboardIndex
+                0x0000000000ad5db8                KeyboardGetAddress
+                0x0000000000ad5e00                KeyboardScan
+                0x0000000000ad64cc                KeyboardCount
+                0x0000000000ad64dc                KeyboardSetLeds
+                0x0000000000ad66f8                KeyboardGetLedSupport
+                0x0000000000ad6744                KeyboardPoll
+                0x0000000000ad6a88                KeyboardGetModifiers
+                0x0000000000ad6ad4                KeyboardGetKeyDownCount
+                0x0000000000ad6b38                KeyboadGetKeyIsDown
+                0x0000000000ad6bf0                KeyboardGetKeyDown
+ .bss           0x0000000000ad6c6c       0x14 ./libcsud.a(device.keyboard.c.o)
+                0x0000000000ad6c6c                keyboardAddresses
+                0x0000000000ad6c7c                keyboardCount
+ .comment       0x0000000000ad6c80       0x11 ./libcsud.a(device.keyboard.c.o)
+                                         0x12 (size before relaxing)
+ .ARM.attributes
+                0x0000000000ad6c91       0x32 ./libcsud.a(device.keyboard.c.o)
+ *fill*         0x0000000000ad6cc3        0x1 
+ COMMON         0x0000000000ad6cc4       0x10 ./libcsud.a(device.keyboard.c.o)
+                0x0000000000ad6cc4                keyboards
+ .text          0x0000000000ad6cd4      0x5c0 ./libcsud.a(platform.c.o)
+                0x0000000000ad6cd4                MemoryReserve
+                0x0000000000ad6cdc                MemoryAllocate
+                0x0000000000ad712c                MemoryDeallocate
+                0x0000000000ad7244                MemoryCopy
+ .bss           0x0000000000ad7294        0x8 ./libcsud.a(platform.c.o)
+                0x0000000000ad7294                FirstFreeAllocation
+                0x0000000000ad7298                allocated
+ .comment       0x0000000000000000       0x12 ./libcsud.a(platform.c.o)
+ .ARM.attributes
+                0x0000000000ad729c       0x32 ./libcsud.a(platform.c.o)
+ *fill*         0x0000000000ad72ce        0x2 
+ COMMON         0x0000000000ad72d0     0x4c00 ./libcsud.a(platform.c.o)
+                0x0000000000ad72d0                Heap
+                0x0000000000adb2d0                Allocations
+ .text          0x0000000000adbed0     0x10e8 ./libcsud.a(usbd.c.o)
+                0x0000000000adbed0                UsbGetRootHub
+                0x0000000000adbee0                UsbPrintDeviceTree
+                0x0000000000adbfac                UsbControlMessage
+                0x0000000000adc0a4                UsbGetDescriptor
+                0x0000000000adc190                UsbGetString
+                0x0000000000adc1fc                UsbReadStringLang
+                0x0000000000adc280                UsbReadString
+                0x0000000000adc380                UsbReadDeviceDescriptor
+                0x0000000000adc4c0                UsbSetAddress
+                0x0000000000adc5a0                UsbSetConfiguration
+                0x0000000000adc674                UsbConfigure
+                0x0000000000adc844                UsbGetDescription
+                0x0000000000adcaf4                UsbScanDevice
+                0x0000000000adcd1c                UsbAllocateDevice
+                0x0000000000adcdd8                UsbDeallocateDevice
+                0x0000000000adcef0                UsbScanRootHub
+                0x0000000000adcf40                UsbInitialise
+                0x0000000000adcf9c                UsbCheckForChange
+ .bss           0x0000000000adcfb8        0x4 ./libcsud.a(usbd.c.o)
+                0x0000000000adcfb8                RootHub
+ .rodata        0x0000000000adcfbc      0x248 ./libcsud.a(usbd.c.o)
+ .rodata.str1.4
+                0x0000000000add204       0x10 ./libcsud.a(usbd.c.o)
+ .comment       0x0000000000000000       0x12 ./libcsud.a(usbd.c.o)
+ .ARM.attributes
+                0x0000000000add214       0x32 ./libcsud.a(usbd.c.o)
+ *fill*         0x0000000000add246        0x2 
+ COMMON         0x0000000000add248        0x4 ./libcsud.a(usbd.c.o)
+                0x0000000000add248                DeviceNumbers
+ .text          0x0000000000add24c     0x1b24 ./libcsud.a(device.hid.c.o)
+                0x0000000000add24c                HidEnumerateActionCountField
+                0x0000000000add374                HidDetached
+                0x0000000000add3b0                HidEnumerateActionAddField
+                0x0000000000addbb8                HidDeallocate
+                0x0000000000addd0c                HidEnumerateActionCountReport
+                0x0000000000adddc4                HidGetReport
+                0x0000000000adde80                HidSetReport
+                0x0000000000addf30                BitSet
+                0x0000000000ade05c                BitGetUnsigned
+                0x0000000000ade164                BitGetSigned
+                0x0000000000ade190                HidReadDevice
+                0x0000000000ade38c                HidWriteDevice
+                0x0000000000ade538                HidSetProtocol
+                0x0000000000ade5e8                HidEnumerateReport
+                0x0000000000ade740                HidParseReportDescriptor
+                0x0000000000adea70                HidScan
+                0x0000000000aded60                HidGetFieldValue
+ .bss           0x0000000000aded70        0x0 ./libcsud.a(device.hid.c.o)
+ .comment       0x0000000000000000       0x12 ./libcsud.a(device.hid.c.o)
+ .ARM.attributes
+                0x0000000000aded70       0x32 ./libcsud.a(device.hid.c.o)
+ *fill*         0x0000000000adeda2        0x2 
+ .text          0x0000000000adeda4      0xd34 ./libcsud.a(device.hub.c.o)
+                0x0000000000adeda4                HubDetached
+                0x0000000000adee44                HubDeallocate
+                0x0000000000adef20                HubReadDescriptor
+                0x0000000000adf018                HubGetStatus
+                0x0000000000adf0f0                HubPortGetStatus
+                0x0000000000adf1d0                HubChangeFeature
+                0x0000000000adf284                HubChangePortFeature
+                0x0000000000adf340                HubPowerOn
+                0x0000000000adf3e8                HubPortReset
+                0x0000000000adf4bc                HubPortConnectionChanged
+                0x0000000000adf6c4                HubCheckConnection
+                0x0000000000adf7f8                HubRecursiveCheck
+                0x0000000000adf8c0                HubScan
+ .bss           0x0000000000adfad8        0x0 ./libcsud.a(device.hub.c.o)
+ .comment       0x0000000000000000       0x12 ./libcsud.a(device.hub.c.o)
+ .ARM.attributes
+                0x0000000000adfad8       0x32 ./libcsud.a(device.hub.c.o)
+ *fill*         0x0000000000adfb0a        0x2 
+ .text          0x0000000000adfb0c     0x160c ./libcsud.a(hcd.designware20.c.o)
+                0x0000000000adfb0c                WriteThroughRegMask
+                0x0000000000adfba0                WriteThroughReg
+                0x0000000000adfba8                ReadBackReg
+                0x0000000000adfc4c                ClearReg
+                0x0000000000adfcb4                SetReg
+                0x0000000000adfd50                HcdReset
+                0x0000000000adfe00                HcdTransmitFifoFlush
+                0x0000000000adfe94                HcdReceiveFifoFlush
+                0x0000000000adff0c                HcdPrepareChannel
+                0x0000000000ae0224                HcdTransmitChannel
+                0x0000000000ae02d0                HcdChannelInterruptToError
+                0x0000000000ae03ac                HcdChannelSendWaitOne
+                0x0000000000ae0668                HcdChannelSendWait
+                0x0000000000ae0780                HcdSumbitControlMessage
+                0x0000000000ae09c8                HcdInitialise
+                0x0000000000ae0b5c                HcdStart
+                0x0000000000ae10b8                HcdStop
+                0x0000000000ae10dc                HcdDeinitialise
+ .bss           0x0000000000ae1118       0x14 ./libcsud.a(hcd.designware20.c.o)
+                0x0000000000ae1118                Core
+                0x0000000000ae111c                Host
+                0x0000000000ae1120                Power
+                0x0000000000ae1124                databuffer
+                0x0000000000ae1128                PhyInitialised
+ .comment       0x0000000000000000       0x12 ./libcsud.a(hcd.designware20.c.o)
+ .ARM.attributes
+                0x0000000000ae112c       0x32 ./libcsud.a(hcd.designware20.c.o)
+ *fill*         0x0000000000ae115e        0x2 
+ COMMON         0x0000000000ae1160        0xc ./libcsud.a(hcd.designware20.c.o)
+                0x0000000000ae1160                CorePhysical
+                0x0000000000ae1164                HostPhysical
+                0x0000000000ae1168                PowerPhysical
+ .text          0x0000000000ae116c      0x6f0 ./libcsud.a(hcd.designware20.roothub.c.o)
+                0x0000000000ae116c                HcdProcessRootHubMessage
+ .bss           0x0000000000ae185c        0x4 ./libcsud.a(hcd.designware20.roothub.c.o)
+                0x0000000000ae185c                RootHubDeviceNumber
+ .comment       0x0000000000000000       0x12 ./libcsud.a(hcd.designware20.roothub.c.o)
+ .ARM.attributes
+                0x0000000000ae1860       0x32 ./libcsud.a(hcd.designware20.roothub.c.o)
+ *fill*         0x0000000000ae1892        0x2 
+ .text          0x0000000000ae1894      0x16c ./libcsud.a(platform.armv6.c.o)
+                0x0000000000ae1894                __aeabi_uidivmod
+                0x0000000000ae19c8                __aeabi_uidiv
+ .bss           0x0000000000ae1a00        0x0 ./libcsud.a(platform.armv6.c.o)
+ .comment       0x0000000000000000       0x12 ./libcsud.a(platform.armv6.c.o)
+ .ARM.attributes
+                0x0000000000ae1a00       0x32 ./libcsud.a(platform.armv6.c.o)
+ *fill*         0x0000000000ae1a32        0x2 
+ .text          0x0000000000ae1a34      0x11c ./libcsud.a(platform.broadcom2835.c.o)
+                0x0000000000ae1a34                MicroDelay
+                0x0000000000ae1aa4                PowerOnUsb
+ .bss           0x0000000000ae1b50        0x0 ./libcsud.a(platform.broadcom2835.c.o)
+ .comment       0x0000000000000000       0x12 ./libcsud.a(platform.broadcom2835.c.o)
+ .ARM.attributes
+                0x0000000000ae1b50       0x32 ./libcsud.a(platform.broadcom2835.c.o)
+
+.text           0x0000000000ae1b84     0x28a0
+ *.c.o(.text)
+ *(.text)
+ .text          0x0000000000ae1b84       0x74 build/borrarImagen.o
+                0x0000000000ae1b84                drawBackgroundBlock
+ .text          0x0000000000ae1bf8        0x0 build/choque.o
+ .text          0x0000000000ae1bf8        0x0 build/creditos.o
+ .text          0x0000000000ae1bf8        0x0 build/drawImage.o
+ .text          0x0000000000ae1bf8      0x1d4 build/drawing.o
+                0x0000000000ae1bf8                SetForeColour
+                0x0000000000ae1c10                SetGraphicsAddress
+                0x0000000000ae1c1c                DrawPixel
+                0x0000000000ae1c64                DrawLine
+                0x0000000000ae1ce0                DrawCharacter
+                0x0000000000ae1d4c                DrawString
+ .text          0x0000000000ae1dcc       0xb0 build/drawingImage.o
+                0x0000000000ae1dcc                drawImage
+ .text          0x0000000000ae1e7c      0x380 build/escena.o
+                0x0000000000ae1e7c                circuloRelleno
+                0x0000000000ae1eac                dibujarCirculo
+                0x0000000000ae2058                dibujarCuadrado
+                0x0000000000ae20c8                dibujarTriangulo1
+                0x0000000000ae2124                dibujarTriangulo2
+                0x0000000000ae2180                Printf
+ .text          0x0000000000ae21fc        0x0 build/flechas.o
+ .text          0x0000000000ae21fc        0x0 build/fondo.o
+ .text          0x0000000000ae21fc        0x0 build/fondo2.o
+ .text          0x0000000000ae21fc        0x0 build/fondo3.o
+ .text          0x0000000000ae21fc       0x60 build/frameBuffer.o
+                0x0000000000ae21fc                InitialiseFrameBuffer
+ .text          0x0000000000ae225c        0x0 build/gameOver.o
+ .text          0x0000000000ae225c      0x250 build/getgpio.o
+                0x0000000000ae225c                GetGpio
+                0x0000000000ae2280                PinesEntrada
+                0x0000000000ae22dc                PinesSalida
+                0x0000000000ae2344                CompararPiedra
+                0x0000000000ae23bc                CompararPapel
+                0x0000000000ae2434                CompararTijera
+ .text          0x0000000000ae24ac        0x0 build/gohan.o
+ .text          0x0000000000ae24ac       0x98 build/gpio.o
+                0x0000000000ae24ac                GetGpioAddress
+                0x0000000000ae24b4                SetGpioFunction
+                0x0000000000ae2504                SetGpio
+ .text          0x0000000000ae2544        0x0 build/imagenNombreJuego.o
+ .text          0x0000000000ae2544        0x0 build/imagenSeleccion.o
+ .text          0x0000000000ae2544        0x0 build/imagenVida.o
+ .text          0x0000000000ae2544        0x0 build/imagenVidaPerdida.o
+ .text          0x0000000000ae2544      0x13c build/imprimir.o
+                0x0000000000ae2544                printf
+                0x0000000000ae2590                contadorPosyNeg
+                0x0000000000ae25d0                contadorPosyPares
+                0x0000000000ae2620                Problema
+ .text          0x0000000000ae2680        0x0 build/instrucciones.o
+ .text          0x0000000000ae2680        0x0 build/instruccionesFondo.o
+ .text          0x0000000000ae2680      0x144 build/keyboard.o
+                0x0000000000ae2680                KeyboardUpdate
+                0x0000000000ae2704                KeyWasDown
+                0x0000000000ae2734                KeyboardGetChar
+ .text          0x0000000000ae27c4       0x6c build/mailbox.o
+                0x0000000000ae27c4                GetMailboxBase
+                0x0000000000ae27cc                MailboxRead
+                0x0000000000ae2800                MailboxWrite
+ .text          0x0000000000ae2830      0x618 build/main.o
+ .text          0x0000000000ae2e48       0x48 build/maths.o
+                0x0000000000ae2e48                DivideU32
+ .text          0x0000000000ae2e90        0x0 build/menu.o
+ .text          0x0000000000ae2e90        0x0 build/modoJuegos.o
+ .text          0x0000000000ae2e90        0x0 build/nave.o
+ .text          0x0000000000ae2e90       0x18 build/random.o
+                0x0000000000ae2e90                Random
+ .text          0x0000000000ae2ea8     0x1024 build/subrutinasProyecto.o
+                0x0000000000ae2ea8                pintarFondoEntero
+                0x0000000000ae2ec4                cuadroRelleno
+                0x0000000000ae2efc                BajarMenu
+                0x0000000000ae2f90                SubirMenu
+                0x0000000000ae3024                pintarMenu
+                0x0000000000ae3128                pintarJugadores
+                0x0000000000ae31d8                SeleccionDerecha
+                0x0000000000ae32b0                SeleccionIzquierda
+                0x0000000000ae3388                dificultadDerecha
+                0x0000000000ae33c8                dificultadIzquierda
+                0x0000000000ae3408                vectoresIniciales
+                0x0000000000ae3440                vidaInicialGrafica
+                0x0000000000ae349c                animacionBloques
+                0x0000000000ae354c                pintarBloque
+                0x0000000000ae3604                generarRandom
+                0x0000000000ae36a0                Boton
+                0x0000000000ae3700                dibujarBala
+                0x0000000000ae3724                verificarChoque
+                0x0000000000ae37d8                desabilitarBala
+                0x0000000000ae3804                eliminarCuadro
+                0x0000000000ae3824                scoreInicial
+                0x0000000000ae3840                actualizarScore
+                0x0000000000ae3880                aumentarScore
+                0x0000000000ae3898                MostrarSeleccion
+                0x0000000000ae38cc                dibujarNave
+                0x0000000000ae3b78                quitarVidas
+                0x0000000000ae3c34                verificarVidas
+                0x0000000000ae3ce0                mostrarDificultad
+                0x0000000000ae3d74                terminarJuego
+ .text          0x0000000000ae3ecc       0x40 build/systemTimer.o
+                0x0000000000ae3ecc                GetSystemTimerBase
+                0x0000000000ae3ed4                GetTimeStamp
+                0x0000000000ae3ee4                Wait
+ .text          0x0000000000ae3f0c       0x74 build/tags.o
+                0x0000000000ae3f0c                FindTag
+ .text          0x0000000000ae3f80      0x2c0 build/terminal.o
+                0x0000000000ae3fb8                TerminalDisplay
+                0x0000000000ae4060                TerminalClear
+                0x0000000000ae4078                Print
+                0x0000000000ae4150                ReadLine
+ .text          0x0000000000ae4240      0x1e4 build/text.o
+                0x0000000000ae4240                ReverseString
+                0x0000000000ae426c                UnsignedString
+                0x0000000000ae42bc                SignedString
+                0x0000000000ae42e8                FormatString
+ .text          0x0000000000ae4424        0x0 build/world.o
+
+/DISCARD/
+ *(*)
+OUTPUT(build/output.elf elf32-littlearm)
